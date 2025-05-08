@@ -7,7 +7,7 @@ According to [KPMG](https://kpmg.com/xx/en/media/press-releases/2025/01/2024-glo
 I use [this Startup Success Prediction Dataset](https://www.kaggle.com/datasets/manishkc06/startup-success-prediction) for my analysis. This analysis addresses the following three questions:
 
 1. Are tech startups more likely to be acquired (i.e., succeed) than non-tech startups?
-2. VC firms can often overspend when investing in startups, resulting in losses for the VC firm. Using this dataset, can we identify a point of diminishing returns whereby additional total funding for a startup no longer significantly contributes to increased probability of acquisition (i.e., startup success)?
+2. VC firms can often overspend when investing in startups, resulting in losses for the VC firm. Using this dataset, can we identify a point of diminishing returns (or saturation point) whereby additional total funding for a startup no longer significantly contributes to increased probability of acquisition (i.e., startup success)?
 3. Can we build a binary classifier that can accurately predict whether a given startup will succeed or fail?
 
 ## Initial Exploratory Data Analysis (EDA)
