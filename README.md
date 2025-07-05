@@ -10,7 +10,7 @@ I use [this Startup Success Prediction Dataset](https://www.kaggle.com/datasets/
 2. VC firms can often overspend when investing in startups, resulting in losses for the VC firm. Using this dataset, can we identify a point of diminishing returns (or saturation point) whereby additional rounds of funding for a startup no longer significantly contributes to increased probability of acquisition (i.e., startup success)? Would such a point of diminishing returns be a function of startup sector/industry? Does a point of diminishing returns likewise exist with total funding (in USD)?
 3. Can we build a binary classifier that can accurately predict whether a given startup will succeed or fail?
 
-## Initial Exploratory Data Analysis (EDA)
+## Initial Data Pre-Processing & Exploratory Data Analysis (EDA)
 
 I load the CSV file containing the startup dataset and first take an overview of the dataset:
 
@@ -21,5 +21,7 @@ Prior to any data pre-processing, our dataset contains 923 points with 49 column
 The next step in the data pre-processing stage is to check for and handle missing values and/or duplicate rows in the dataset:
 
 <img width="312" alt="Screenshot 2025-07-05 at 3 42 44 PM" src="https://github.com/user-attachments/assets/f21de3aa-69cd-41a9-9c68-ccf6436a0bcb" />
+
+As can be seen from executing my source code for pre-processing this dataset, the "unnamed: 6", "closed_at", "age_first_milestone_year", and "age_last_milestone_year", and "state_code.1" have missing values. It is expected that the "closed_at" column of the dataset should have missing values because some of the startups represented in the dataset did not close and went on to become acquired (i.e., succeed). 
 
 
