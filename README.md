@@ -24,4 +24,6 @@ The next step in the data pre-processing stage is to check for and handle missin
 
 As can be seen from executing my source code for pre-processing this dataset, the "unnamed: 6", "closed_at", "age_first_milestone_year", and "age_last_milestone_year", and "state_code.1" have missing values. It is expected that the "closed_at" column of the dataset should have missing values because some of the startups represented in the dataset did not close and went on to become acquired (i.e., succeed). 
 
+Because I eventually build a binary classifier, for pre-processing this dataset, I need to binarize this dataset. This entails dropping non-binary columns from the dataset and binarizing the "status" column using a one-hot encoding. 
+
 
