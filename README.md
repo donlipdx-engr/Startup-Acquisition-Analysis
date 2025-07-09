@@ -16,4 +16,8 @@ I load the CSV file containing the startup dataset and first take an overview of
 
 ## Question 1: Are Tech Startups (Historically) More Likely to Be Acquired than Non-Tech Startups?
 
+I perform exploratory data analysis (EDA) 
+
+## Questions 2.1 & 2.2: Does There Exist Diminishing Returns for Funding Rounds and/or Total Funding?
+
 
