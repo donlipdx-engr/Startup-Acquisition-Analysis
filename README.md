@@ -14,6 +14,6 @@ I use [this Startup Success Prediction Dataset](https://www.kaggle.com/datasets/
 
 I load the CSV file containing the startup dataset and first take an overview of the dataset:
 
-## Question 1: Are Tech Startups More Likely to Be Acquired than Non-Tech Startups?
+## Question 1: Are Tech Startups (Historically) More Likely to Be Acquired than Non-Tech Startups?
 
 
